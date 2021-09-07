@@ -1,0 +1,14 @@
+{
+  "title": "Uma plataforma bla bla bla bla bla bla blabla bla",
+  "text": "Somos uma empresa que temos o objetivo de conectar estudantes do ensino médio com profissionais de diversas áreas para ajudá-los a tomar decisões conscientes para o seu futuro.",
+  "button": [
+    {
+      "title": "Como funciona"
+    },
+    {
+      "title": "Fale conosco",
+      "color": "#fff",
+      "to": "contact"
+    }
+  ]
+}
