@@ -1,18 +1,24 @@
 .headerContainer {
-    max-width: 1024px;
-    margin: auto;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
     padding-top: 2rem;
+
+    @media only screen and (max-width: 650px) {
+        display: none;
+    }
 }
 
 .logo {
     width: 8rem;
     height: 4rem;
-    background-color: red;
+    background-color: #646363;
 
     display: flex;
     justify-content: center;
@@ -23,5 +29,37 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4rem;
+}
+
+.items {
+    font-size: 1.2rem;
+    color: #2e2046;
+    transition: all ease-in-out 10s;
+    margin: 0.5rem 2rem;
+
+    @media only screen and (max-width: 768px) {
+        margin: 1.25rem 2rem;
+    }
+
+    :hover {
+        opacity: 0.8;
+        color: #56af89;
+    }
+
+    ::after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 3px;
+        width: 4.4rem;
+        background: linear-gradient(to right, #56af89, hsl(192, 70%, 51%));
+        border-radius: 5px;
+        margin: 1.8rem 0;
+        transform: scaleX(0);
+        transition: all  .5s ease-in-out;
+    }
+
+    :hover::after {
+        transform: scaleX(1);
+    }
 }
