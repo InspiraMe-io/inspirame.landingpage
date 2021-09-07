@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,31 +8,80 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Motiva Sans Light";
-  src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
-  font-style: normal;
-}
-@font-face {
-  font-family: "Motiva Sans Bold";
-  src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
-  font-style: normal;
-}
-
 
 body,
-button,
-a,
-span,
+html,
+a {
+  font-family: 'Roboto', serif;
+
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    border: 0;
+    outline: 0;
+    background: #fff;
+    overflow-x: hidden;
+}
+
+input,
 textarea {
-  font-family: 'Motiva Sans Light', sans-serif;
+    border-radius: 4px;
+    border: 0;
+    background: rgb(241, 242, 243);
+    transition: all 0.3s ease-in-out;  
+    outline: none;
+    width: 100%;  
+    padding: 1rem 1.25rem;
+}
+
+textarea:focus-within {
+  background: none;
+  box-shadow: #2e186a 0px 0px 0px 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', serif;
+    color: #34344f;
+    font-size: 56px;
+    line-height: 1.18;
+    font-weight: bold;
+    @media only screen and (max-width: 890px) {
+      font-size: 47px;
+    }
+  
+    @media only screen and (max-width: 414px) {
+      font-size: 32px;
+    }
+}
+
+p {
+    color:  34344f;
+    font-size: 21px;        
+    line-height: 1.41;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #34344f;
+}
+
+*:focus {
+    outline: none;
 }
 
 ul {
   list-style: none;
-}
-
-a {
-  text-decoration: none;
-  font-size: 1.2rem;
 }
