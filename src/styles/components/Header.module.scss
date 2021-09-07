@@ -1,21 +1,27 @@
 .headerContainer {
     height: 200px;
-    max-width: 1124px;
+    max-width: 1024px;
     margin: auto;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .logo {
-    width: 4rem;
+    width: 8rem;
     height: 4rem;
     background-color: red;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
 }
