@@ -1,15 +1,20 @@
 .containerButton {
-    background-color: rgb(24, 33, 109);
-    color: rgb(255, 255, 255);;
-    padding: 1rem 4rem;
-    
-    cursor: pointer;
-    transition: all .5s;
     font-size: 1rem;
     font-weight: 700;
-    box-shadow: rgba(23, 31, 114, 0.2) 0px 16px 30px;
-}
+    width: 100%;
+    border: 1px solid #edf3f5;
+    border-radius: 4px;
+    padding: 13px 0;
+    cursor: pointer;
+    max-width: 180px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 16px 30px rgb(23 31 114 / 20%);
 
-.containerButton:hover {
-    background-color: red;
+    &:hover,
+    &:active,
+    &:focus {
+        color: #fff;
+        border: 1px solid rgb(255, 130, 92);
+        background-color: rgb(255, 130, 92);
+    }
 }
