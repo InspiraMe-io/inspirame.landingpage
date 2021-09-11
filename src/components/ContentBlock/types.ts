@@ -7,5 +7,6 @@ export interface ContentBlockProps {
     t?: any;
     id: string;
     type?: string;
+    isAnimation?: boolean;
   }
   

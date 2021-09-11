@@ -26,6 +26,7 @@ export default function Home() {
           button={IntroContent.button}
           icon="main.svg"
           id="intro"
+          isAnimation={true}
         /> 
 
         <MiddleBlock
