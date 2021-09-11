@@ -12,6 +12,7 @@ export default function RightContentBlock({
   button,
   id,
   isAnimation,
+  animationFile,
 }: ContentBlockProps) {
   const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
@@ -44,7 +45,7 @@ export default function RightContentBlock({
 
           {isAnimation ? (
             <div className={styles.animationContainer}>
-              <Animation loop={true} autoplay={true} file={""} />
+              <Animation loop={true} autoplay={true} file={animationFile} />
             </div>
           ) : (
             <Image

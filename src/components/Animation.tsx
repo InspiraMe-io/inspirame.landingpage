@@ -18,9 +18,7 @@ export default function Animation({ loop, autoplay, file }: AnimationProps) {
       renderer: "svg",
       loop: loop,
       autoplay: autoplay,
-    //   animationData: require(`${file}`),
-    animationData: require('./network.json'),
-
+      animationData: require(`../content/Animations/${file}`),
     });
   }, []);
   return <div className="container" ref={container}></div>;
