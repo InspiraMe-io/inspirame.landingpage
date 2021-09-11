@@ -1,5 +1,6 @@
 
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import styles from '../styles/pages/Index.module.scss'
 
 import ContentBlock from '../components/ContentBlock'
@@ -56,6 +57,7 @@ export default function Home() {
           id="contact"
         />
       </div>
+      <Footer />
     </>
   )
 }
