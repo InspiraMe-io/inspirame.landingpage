@@ -1,0 +1,96 @@
+.teamSection {
+  position: relative;
+  padding: 7.5rem 0 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 1024px) {
+    padding: 5.5rem 0 3rem;
+  }
+}
+
+.teamSectionContainer {
+  max-width: 1500px;
+}
+
+.content {
+  margin: 2rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: row;
+  // flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1080px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  width: 200px;
+  height: 300px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+  box-shadow: 12px 12px 2px 1px rgba(143, 143, 143, 0.2);
+  border: 2px solid rgb(80, 80, 80);
+  align-items: center;
+  flex-direction: column;
+
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-top: 5px;
+    // font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+  img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    // font-family: 'Courier New', Courier, monospace;
+  }
+
+  h2 {
+    font-size: 0.9rem;
+    font-weight: normal;
+    // font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+.socialContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  
+}
+
+.icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: white;
+  }
+

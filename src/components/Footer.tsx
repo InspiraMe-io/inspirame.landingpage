@@ -34,7 +34,7 @@ export default function Footer() {
           </p>
         </div>
       </div>
-      <hr className={styles.hr1}></hr>
+      <hr className={styles.hr}></hr>
       {/* <p>
         <a>Made with ❤️ in Brazil | InspiraMe &copy; 2021</a>
       </p> */}
