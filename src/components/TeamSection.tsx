@@ -23,23 +23,23 @@ export default function TeamSection() {
       image: "enzo.jpg",
     },
     {
-      name: "Julia Zibordi",
-      description: "Tech",
-      socialNetwork: "https://www.linkedin.com/in/enzoportela",
-      image: "julia.jpg",
-    },
-    {
       name: "Guilherme Dantas",
       description: "Marketing",
       socialNetwork: "https://www.linkedin.com/in/enzoportela",
       image: "guilherme.jpg",
+    },
+    {
+      name: "Julia Zibordi",
+      description: "Tech",
+      socialNetwork: "https://www.linkedin.com/in/enzoportela",
+      image: "julia.jpg",
     },
   ];
   return (
     <section className={styles.teamSection}>
       <Slide direction="right">
         <div className={styles.teamSectionContainer}>
-          <h1>Time</h1>
+          <h1>Fundadores</h1>
           <div className={styles.cardsContainer}>
             {people.map((item) => {
               return (
@@ -54,10 +54,40 @@ export default function TeamSection() {
                     <h1>{item.name}</h1>
                     <h2>{item.description}</h2>
                   </div>
-                  <p>
-                    kkfkgkfogko kkfkgkfogko kkfkgkfogko kkfkgkfogko kkfkgkfogko
-                    kkfkgkfogko
-                  </p>
+                  <hr />
+                  <div className={styles.socialContainer}>
+                      <div className={styles.icon}>
+                          <div></div>
+                      </div>
+                    {/* <ul>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-behance"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-google-plus-g"></i>
+                        </a>
+                      </li>
+                      <div className={styles.socialIcons}></div>
+                    </ul> */}
+                  </div>
                 </div>
               );
             })}
