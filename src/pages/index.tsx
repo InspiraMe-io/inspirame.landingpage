@@ -6,6 +6,7 @@ import styles from '../styles/pages/Index.module.scss'
 import ContentBlock from '../components/ContentBlock'
 import MiddleBlock from '../components/MiddleBlock';
 import Contact from '../components/ContactForm';
+import TeamSection from '../components/TeamSection';
 
 import IntroContent from "../content/IntroContent.json";
 import MiddleBlockContent from "../content/MiddleBlockContent.json";
@@ -56,6 +57,8 @@ export default function Home() {
           content={ContactContent.text}
           id="contact"
         />
+
+        <TeamSection/>
       </div>
       <Footer />
     </>

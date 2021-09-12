@@ -1,0 +1,60 @@
+.teamSection {
+    position: relative;
+    padding: 7.5rem 0 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  
+    @media screen and (max-width: 1024px) {
+      padding: 5.5rem 0 3rem;
+    }
+}
+
+.teamSectionContainer {
+    max-width: 1500px;
+}
+
+.content {
+    margin: 2rem;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-direction: row;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1300px;
+    margin-top: 50px;
+}
+
+.card {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px rgba(143, 143, 143, 0.2);
+    border: 2px solid rgb(80, 80, 80);
+    align-items: center;
+    flex-direction: column;
+    img {
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
