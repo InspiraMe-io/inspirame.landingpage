@@ -11,8 +11,8 @@ export function Button({ text, color, ...props }: ButtonProps) {
     <button
       className={styles.containerButton}
       style={{
-        backgroundColor: color || "#56af89",
-        color: color ? "#56af89" : "#fff",
+        backgroundColor: color || "#2d374d",
+        color: color ? "#2d374d" : "#fff",
       }}
       {...props}
     >

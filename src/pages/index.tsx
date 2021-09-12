@@ -27,6 +27,8 @@ export default function Home() {
           button={IntroContent.button}
           icon="main.svg"
           id="intro"
+          isAnimation={true}
+          animationFile={'network.json'}
         /> 
 
         <MiddleBlock
@@ -50,6 +52,8 @@ export default function Home() {
           content={MissionContent.text}
           icon="product-launch.svg"
           id="mission"
+          isAnimation={true}
+          animationFile={'map.json'}
         />
 
         <Contact 
