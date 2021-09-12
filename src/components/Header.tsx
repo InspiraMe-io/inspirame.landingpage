@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <header className={styles.headerContainer}>
             <div>
-                <p>{"<"}inspireme{"/>"}</p>
+                <p>{"<"}inspirame{"/>"}</p>
             </div>
             <div>
                 <ul className={styles.navItems}>

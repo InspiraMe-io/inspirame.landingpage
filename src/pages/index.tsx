@@ -56,11 +56,11 @@ export default function Home() {
           animationFile={'map.json'}
         />
 
-        <Contact 
+        {/* <Contact 
           title={ContactContent.title}
           content={ContactContent.text}
           id="contact"
-        />
+        /> */}
 
         <TeamSection/>
       </div>

@@ -8,8 +8,8 @@
   flex-direction: column;
   align-items: center;
 
-  p {
-    font-size: 0.8rem;
+  p a {
+    font-size: 1rem;
   }
 
   hr {
@@ -19,6 +19,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
 }
 
 .container {
@@ -30,9 +36,9 @@
   justify-content: space-between;
   flex-direction: row;
 
-  h1 {
-    font-size: 1.2rem;
-  }
+  // h1 {
+  //   font-size: 1.3rem;
+  // }
 
   p {
     font-size: small;
@@ -42,15 +48,13 @@
 .card {
   display: flex;
   flex-direction: column;
+  max-width: 250px;
 
   p {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
-  }
-
-  a {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 

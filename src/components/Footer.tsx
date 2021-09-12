@@ -15,7 +15,10 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.card}>
           <h1>Quem somos</h1>
-          <p>text text text text text text text</p>
+          <p>
+            Pessoas movidas por desafios com o objetivo de impactar postivamente
+            o Brasil.
+          </p>
         </div>
         <div className={styles.card}>
           <h1>Sobre</h1>
@@ -28,8 +31,8 @@ export default function Footer() {
         <div className={styles.card}>
           <h1>Contatos</h1>
           <p>
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
+            <a href="https://www.instagram.com/weareinspirame/">Instagram</a>
+            <a href="#">LinkedIn</a>
             <a href="mailto:support@company.com">Email</a>
           </p>
         </div>
