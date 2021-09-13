@@ -1,0 +1,34 @@
+[
+    {
+      "id": "01",
+      "name": "Ana Beatriz",
+      "description": "Business",
+      "socialNetwork": "https://www.linkedin.com/in/ana-beatriz-rodrigues-5517961a8/",
+      "image": "ana.jpg",
+      "email": ""
+    },
+    {
+      "id": "02",
+      "name": "Enzo Portela",
+      "description": "Business & Tech",
+      "socialNetwork": "https://www.linkedin.com/in/enzoportela",
+      "image": "enzo.jpg",
+      "email": ""
+    },
+    {
+      "id": "03",
+      "name": "Guilherme Dantas",
+      "description": "Marketing",
+      "socialNetwork": "https://www.linkedin.com/in/guilherme28",
+      "image": "guilherme.jpg",
+      "email": ""
+    },
+    {
+      "id": "04",
+      "name": "Julia Zibordi",
+      "description": "Business & Design",
+      "socialNetwork": "https://www.linkedin.com/in/julia-g-zibordi-6a2420220/",
+      "image": "julia.jpg",
+      "email": ""
+    }
+  ]

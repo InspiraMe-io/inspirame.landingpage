@@ -28,5 +28,10 @@
   "engines": {
     "node": "14.17.6",
     "yarn": "1.22.11"
-  }
+  },
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  },
+  "extends": "next/core-web-vitals"
 }

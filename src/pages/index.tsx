@@ -4,15 +4,12 @@ import styles from "../styles/pages/Index.module.scss";
 
 import ContentBlock from "../components/ContentBlock";
 import MiddleBlock from "../components/MiddleBlock";
-import Contact from "../components/ContactForm";
 import TeamSection from "../components/TeamSection";
 
 import IntroContent from "../content/IntroContent.json";
 import MiddleBlockContent from "../content/MiddleBlockContent.json";
 import AboutContent from "../content/AboutContent.json";
 import MissionContent from "../content/MissionContent.json";
-// import ProductContent from "../../content/ProductContent.json";
-import ContactContent from "../content/ContactContent.json";
 
 export default function Home() {
   return (
