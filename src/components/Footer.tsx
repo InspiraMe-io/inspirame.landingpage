@@ -33,7 +33,7 @@ export default function Footer() {
           <p>
             <a href="https://www.instagram.com/weareinspirame/">Instagram</a>
             <a href="#">LinkedIn</a>
-            <a href="mailto:support@company.com">Email</a>
+            <a href="mailto:inspirame.plataform@gmail.com">Email</a>
           </p>
         </div>
       </div>

@@ -14,12 +14,6 @@ export default function RightContentBlock({
   isAnimation,
   animationFile,
 }: ContentBlockProps) {
-  const scrollTo = (id: string) => {
-    const element = document.getElementById(id) as HTMLDivElement;
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
 
   return (
     <section className={styles.rightContentSection}>
@@ -32,12 +26,11 @@ export default function RightContentBlock({
               {typeof button === "object" &&
                 button.map((item: any, id: number) => {
                   return (
-                    <Button
-                      key={id}
-                      color={item.color}
-                      text={item.title}
-                      onClick={() => (item.to ? scrollTo(item.to) : null)}
-                    />
+                      <Button
+                        key={id}
+                        color={item.color}
+                        text={item.title}
+                      />
                   );
                 })}
             </div>

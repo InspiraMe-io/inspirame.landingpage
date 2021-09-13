@@ -1,12 +1,11 @@
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import styles from "../styles/pages/Index.module.scss";
 
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import styles from '../styles/pages/Index.module.scss'
-
-import ContentBlock from '../components/ContentBlock'
-import MiddleBlock from '../components/MiddleBlock';
-import Contact from '../components/ContactForm';
-import TeamSection from '../components/TeamSection';
+import ContentBlock from "../components/ContentBlock";
+import MiddleBlock from "../components/MiddleBlock";
+import Contact from "../components/ContactForm";
+import TeamSection from "../components/TeamSection";
 
 import IntroContent from "../content/IntroContent.json";
 import MiddleBlockContent from "../content/MiddleBlockContent.json";
@@ -20,7 +19,7 @@ export default function Home() {
     <>
       <Header />
       <div className={styles.container}>
-        <ContentBlock 
+        <ContentBlock
           type="right"
           title={IntroContent.title}
           content={IntroContent.text}
@@ -28,8 +27,8 @@ export default function Home() {
           icon="main.svg"
           id="intro"
           isAnimation={true}
-          animationFile={'network.json'}
-        /> 
+          animationFile={"network.json"}
+        />
 
         <MiddleBlock
           title={MiddleBlockContent.title}
@@ -53,7 +52,7 @@ export default function Home() {
           icon="product-launch.svg"
           id="mission"
           isAnimation={true}
-          animationFile={'map.json'}
+          animationFile={"map.json"}
         />
 
         {/* <Contact 
@@ -65,6 +64,7 @@ export default function Home() {
         <TeamSection/>
       </div>
       <Footer />
+      <div id="modal-root"></div>
     </>
-  )
+  );
 }

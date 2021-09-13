@@ -10,7 +10,7 @@ interface MiddleBlockProps {
 
 export default function MiddleBlock({ title, content, button }: MiddleBlockProps) {
     return (
-        <section className={styles.middleBlockSection}>
+        <section className={styles.middleBlockSection} id="howItWorks">
             <Slide direction="up" >
                 <div className={styles.middleBlockContainer}>
                     <h2 className={styles.title}>

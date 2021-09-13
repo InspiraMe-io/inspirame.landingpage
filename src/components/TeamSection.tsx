@@ -1,38 +1,35 @@
 import { Slide } from "react-awesome-reveal";
 import styles from "../styles/components/TeamSection.module.scss";
-import { Button } from "./Button";
-
-// interface MiddleBlockProps {
-//     title: string;
-//     content: string;
-//     button: string;
-// }
 
 export default function TeamSection() {
   const people = [
     {
       name: "Ana Beatriz",
       description: "Business",
-      socialNetwork: "https://www.linkedin.com/in/enzoportela",
+      socialNetwork: "https://www.linkedin.com/in/ana-beatriz-rodrigues-5517961a8/",
       image: "ana.jpg",
+      email: "",
     },
     {
       name: "Enzo Portela",
       description: "Business & Tech",
       socialNetwork: "https://www.linkedin.com/in/enzoportela",
       image: "enzo.jpg",
+      email: "",
     },
     {
       name: "Guilherme Dantas",
       description: "Marketing",
-      socialNetwork: "https://www.linkedin.com/in/enzoportela",
+      socialNetwork: "https://www.linkedin.com/in/guilherme28",
       image: "guilherme.jpg",
+      email: "",
     },
     {
       name: "Julia Zibordi",
-      description: "Tech",
-      socialNetwork: "https://www.linkedin.com/in/enzoportela",
+      description: "Business & Design",
+      socialNetwork: "https://www.linkedin.com/in/julia-g-zibordi-6a2420220/",
       image: "julia.jpg",
+      email: "",
     },
   ];
   return (
@@ -40,7 +37,7 @@ export default function TeamSection() {
       <Slide direction="right">
         <div className={styles.teamSectionContainer}>
           <h1>Fundadores</h1>
-          <div className={styles.cardsContainer}>
+          <div className={styles.cardsContainer} id="team">
             {people.map((item) => {
               return (
                 <div className={styles.card}>
@@ -56,37 +53,13 @@ export default function TeamSection() {
                   </div>
                   <hr />
                   <div className={styles.socialContainer}>
-                      <div className={styles.icon}>
-                          <div></div>
-                      </div>
-                    {/* <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-facebook-f"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-behance"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fab fa-google-plus-g"></i>
-                        </a>
-                      </li>
-                      <div className={styles.socialIcons}></div>
-                    </ul> */}
+                    <a href={item.socialNetwork}>
+                      <img
+                        src={"/img/svg/linkedin.svg"}
+                        width={30}
+                        height={30}
+                      />
+                    </a>
                   </div>
                 </div>
               );

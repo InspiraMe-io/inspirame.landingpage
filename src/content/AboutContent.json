@@ -3,14 +3,14 @@
   "text": "Ut consequatur quaerat quo corporis praesentium esse debitis? Vel saepe omnis eos voluptatem mollitia id animi magnam et accusantium neque sit delectus sunt.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
-      "icon": "notes.svg"
+      "title": "Videochamadas",
+      "subTitle": "Deixando o processo mais humano, mesmo que à distância.",
+      "icon": "call.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
-      "icon": "notes.svg"
+      "title": "Mentoria em pequenos grupos",
+      "subTitle": "Assim o processo de aprendizagem fica mais colaborativo.",
+      "icon": "colab.svg"
     }
   ]
 }

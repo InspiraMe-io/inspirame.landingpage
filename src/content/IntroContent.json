@@ -3,10 +3,10 @@
   "text": "Nosso objetivo é conectar estudantes do ensino médio a profissionais de diversas áreas para ajudá-los a descobrirem o seu futuro.",
   "button": [
     {
-      "title": "Como funciona"
+      "title": "Quero ser mentorado"
     },
     {
-      "title": "Fale conosco",
+      "title": "Quero ser mentor",
       "color": "#fff",
       "to": "contact"
     }
