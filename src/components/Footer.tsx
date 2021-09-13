@@ -23,7 +23,7 @@ export default function Footer() {
         <div className={styles.card}>
           <h1>Sobre</h1>
           <p>
-            <a href="#">Como funciona?</a>
+            <a href="#">Como funciona</a>
             <a href="#">Privacidade</a>
             <a href="#">Termos de uso</a>
           </p>
